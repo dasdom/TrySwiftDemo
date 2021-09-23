@@ -19,7 +19,6 @@
 		F2F8EFDE26EDEC1A00DA176C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F8EFDC26EDEC1A00DA176C /* Main.storyboard */; };
 		F2F8EFE026EDEC1C00DA176C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F8EFDF26EDEC1C00DA176C /* Assets.xcassets */; };
 		F2F8EFE326EDEC1C00DA176C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F8EFE126EDEC1C00DA176C /* LaunchScreen.storyboard */; };
-		F2F8EFF926EDEC1C00DA176C /* TrySwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8EFF826EDEC1C00DA176C /* TrySwiftDemoUITests.swift */; };
 		F2F8F00726EDEEC600DA176C /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8F00626EDEEC600DA176C /* UserInfoViewController.swift */; };
 		F2F8F00926EDEF8500DA176C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8F00826EDEF8500DA176C /* User.swift */; };
 		F2F8F00B26EDF37400DA176C /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8F00A26EDF37400DA176C /* UserInfoView.swift */; };
@@ -27,13 +26,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		F2F8EFEA26EDEC1C00DA176C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F2F8EFCB26EDEC1A00DA176C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F2F8EFD226EDEC1A00DA176C;
-			remoteInfo = TrySwiftDemo;
-		};
-		F2F8EFF526EDEC1C00DA176C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F2F8EFCB26EDEC1A00DA176C /* Project object */;
 			proxyType = 1;
@@ -59,9 +51,6 @@
 		F2F8EFE426EDEC1C00DA176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2F8EFE926EDEC1C00DA176C /* TrySwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8EFEF26EDEC1C00DA176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2F8EFF426EDEC1C00DA176C /* TrySwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F8EFF826EDEC1C00DA176C /* TrySwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftDemoUITests.swift; sourceTree = "<group>"; };
-		F2F8EFFA26EDEC1C00DA176C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2F8F00626EDEEC600DA176C /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		F2F8F00826EDEF8500DA176C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F2F8F00A26EDF37400DA176C /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
@@ -76,13 +65,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F2F8EFE626EDEC1C00DA176C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2F8EFF126EDEC1C00DA176C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,7 +116,6 @@
 			children = (
 				F2F8EFD526EDEC1A00DA176C /* TrySwiftDemo */,
 				F2F8EFEC26EDEC1C00DA176C /* TrySwiftDemoTests */,
-				F2F8EFF726EDEC1C00DA176C /* TrySwiftDemoUITests */,
 				F2F8EFD426EDEC1A00DA176C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,7 +125,6 @@
 			children = (
 				F2F8EFD326EDEC1A00DA176C /* TrySwiftDemo.app */,
 				F2F8EFE926EDEC1C00DA176C /* TrySwiftDemoTests.xctest */,
-				F2F8EFF426EDEC1C00DA176C /* TrySwiftDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,15 +153,6 @@
 				F2F8EFEF26EDEC1C00DA176C /* Info.plist */,
 			);
 			path = TrySwiftDemoTests;
-			sourceTree = "<group>";
-		};
-		F2F8EFF726EDEC1C00DA176C /* TrySwiftDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F2F8EFF826EDEC1C00DA176C /* TrySwiftDemoUITests.swift */,
-				F2F8EFFA26EDEC1C00DA176C /* Info.plist */,
-			);
-			path = TrySwiftDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,24 +193,6 @@
 			productReference = F2F8EFE926EDEC1C00DA176C /* TrySwiftDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F2F8EFF326EDEC1C00DA176C /* TrySwiftDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2F8F00326EDEC1C00DA176C /* Build configuration list for PBXNativeTarget "TrySwiftDemoUITests" */;
-			buildPhases = (
-				F2F8EFF026EDEC1C00DA176C /* Sources */,
-				F2F8EFF126EDEC1C00DA176C /* Frameworks */,
-				F2F8EFF226EDEC1C00DA176C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2F8EFF626EDEC1C00DA176C /* PBXTargetDependency */,
-			);
-			name = TrySwiftDemoUITests;
-			productName = TrySwiftDemoUITests;
-			productReference = F2F8EFF426EDEC1C00DA176C /* TrySwiftDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -253,10 +206,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					F2F8EFE826EDEC1C00DA176C = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = F2F8EFD226EDEC1A00DA176C;
-					};
-					F2F8EFF326EDEC1C00DA176C = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = F2F8EFD226EDEC1A00DA176C;
 					};
@@ -277,7 +226,6 @@
 			targets = (
 				F2F8EFD226EDEC1A00DA176C /* TrySwiftDemo */,
 				F2F8EFE826EDEC1C00DA176C /* TrySwiftDemoTests */,
-				F2F8EFF326EDEC1C00DA176C /* TrySwiftDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,13 +243,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F2F8EFE726EDEC1C00DA176C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2F8EFF226EDEC1C00DA176C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,14 +277,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2F8EFF026EDEC1C00DA176C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2F8EFF926EDEC1C00DA176C /* TrySwiftDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -351,11 +284,6 @@
 			isa = PBXTargetDependency;
 			target = F2F8EFD226EDEC1A00DA176C /* TrySwiftDemo */;
 			targetProxy = F2F8EFEA26EDEC1C00DA176C /* PBXContainerItemProxy */;
-		};
-		F2F8EFF626EDEC1C00DA176C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F2F8EFD226EDEC1A00DA176C /* TrySwiftDemo */;
-			targetProxy = F2F8EFF526EDEC1C00DA176C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -579,46 +507,6 @@
 			};
 			name = Release;
 		};
-		F2F8F00426EDEC1C00DA176C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q6PD97MRX4;
-				INFOPLIST_FILE = TrySwiftDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.dasdom.TrySwiftDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TrySwiftDemo;
-			};
-			name = Debug;
-		};
-		F2F8F00526EDEC1C00DA176C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q6PD97MRX4;
-				INFOPLIST_FILE = TrySwiftDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.dasdom.TrySwiftDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TrySwiftDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -645,15 +533,6 @@
 			buildConfigurations = (
 				F2F8F00126EDEC1C00DA176C /* Debug */,
 				F2F8F00226EDEC1C00DA176C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2F8F00326EDEC1C00DA176C /* Build configuration list for PBXNativeTarget "TrySwiftDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F2F8F00426EDEC1C00DA176C /* Debug */,
-				F2F8F00526EDEC1C00DA176C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
