@@ -1,0 +1,23 @@
+[
+  {
+    "id": "C016872D-1970-40A8-9B05-DA736CDD6E34",
+    "nameComponents": {
+      "familyName": "Doe",
+      "namePrefix": "Dr.",
+      "givenName": "Jon"
+    },
+    "company": "LOL Inc.",
+    "role": "manager",
+    "address": "1234 Main Street, 223344 Springfield"
+  },
+  {
+    "id": "FE5E5A38-44E7-4296-B115-34BFB74649C1",
+    "nameComponents": {
+      "familyName": "Appleseed",
+      "givenName": "Jon"
+    },
+    "company": "LOL Inc.",
+    "role": "manager",
+    "address":"555 Main Street, 223344 Springfield"
+  }
+]
